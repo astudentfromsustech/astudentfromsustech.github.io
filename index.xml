@@ -6,14 +6,91 @@
     <description>Recent content on Not a Peeker of Nature</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://astudentfromsustech.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Routine_analysis_in_bioinformatics</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_7_routine_pipelines_in_bioinformatics_/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_7_routine_pipelines_in_bioinformatics_/</guid>
+      <description>Why? There are two main reasons why I want to record these routine pipelines: (1) save some time if&#xA;Routine analysis 1: volcano plot To be continued &amp;hellip; </description>
+    </item>
+    <item>
+      <title>Routine_pipelines_in_bioinformatics</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_6_routine_analysis_in_bioinformatics_/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_6_routine_analysis_in_bioinformatics_/</guid>
+      <description>Why? There are lots of packages dealing with various routine analysis in bioinformatics. Many of them are R packages&#xA;Routine analysis 1: volcano plot To be continued &amp;hellip; </description>
+    </item>
+    <item>
+      <title>Draw figures for publications</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</guid>
+      <description>Why? Usually, I use Python with ggplot style to draw plots and take screenshots of date displayed in browser. Then, I organize them into a full figure in PPT. But there are two problems that trouble me: one is the low resolution, and the other is the inconvenience when converting from one layout to another. When I read the post &amp;ldquo;Drawing Vector Graphics For Publication Figures&amp;rdquo; published by Prof. Xi Chen, I realized there are some better methods.</description>
+    </item>
+    <item>
+      <title>Issues collection about virtual environment</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_5_virtual_environment/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_5_virtual_environment/</guid>
+      <description>Why? Configuring environment is quite important, and sometimes annoying especially for a beginner. The issues can be various, so I&amp;rsquo;d like to collect them in the post. There are two main benefits for me: one is to save time if I have the same issue next time, another is to build a framework of virtual environment so that I can really understand how it works.&#xA;Background information h Issues To be continued &amp;hellip; </description>
+    </item>
+    <item>
+      <title>Nomenclature of genes and proteins</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_3_manuscript_gene_name/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_3_manuscript_gene_name/</guid>
+      <description>Why? When I wrote my thesis, I did not write the gene names in italics. Here is the summary I find in Zhihu. I think the summary is clear and enough for me.</description>
+    </item>
+    <item>
+      <title>About me (all text)</title>
+      <link>https://astudentfromsustech.github.io/about/about_1/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/about/about_1/</guid>
+      <description>About me My name is Pengfei Yin (殷鹏飞). I completed my BSc at the Ocean University of China, where I was deeply attracted to how mechanisms underlying molecular biology are discovered. Since then, I have been systematically enhancing my ability to decipher biological mechanisms. In addition to experiments, numerous scientific studies demonstrate that Physics (Francis Crick) and computational analysis can also help us understand the biological phenomena. Thus, I have developed a background in molecular biology, complemented by training in mathematical modeling and core courses for Physics students (including the 3 volumes of the Feynman Lectures on Physics).</description>
+    </item>
+    <item>
+      <title>SSH service</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_2/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_2/</guid>
+      <description>SSH service Why? There are two main reasons for me to start SSH service on WSL:&#xA;It&amp;rsquo;s convenient for me to operate my host machine in the lab. As long as there is a low-end, lightweight MacBook, we can deal with some tasks with SSH connecting to my host machine How? I tried many tutorials on the Internet, most of them don&amp;rsquo;t work. So, I want to record how to do it step by step (Reference blog).</description>
+    </item>
+    <item>
+      <title>HUGO, follow-up</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_1/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_1/</guid>
+      <description>Hello, HUGO! Why? Inspired by the website of Prof.XiChen, I also want to build my own website using HUGO with gokarna theme. I think it&amp;rsquo;s a good way to record my thoughts and progresses, as well as a method to present myself. Besides, it can also encourage me to write more, which I think, is quite important to reorganize various pieces of knowledge and assimilate them into my own understanding.</description>
+    </item>
+    <item>
+      <title>About me (with figure)</title>
+      <link>https://astudentfromsustech.github.io/about/about_0/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/about/about_0/</guid>
+      <description>About me The following pic displays my motivation, research interests, skills and goals </description>
+    </item>
+    <item>
+      <title>About me (with figure)</title>
+      <link>https://astudentfromsustech.github.io/about/about_2/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/about/about_2/</guid>
+      <description>About me My name is Pengfei Yin (殷鹏飞). I completed my BSc at the Ocean University of China, where I was deeply attracted to how mechanisms underlying molecular biology are discovered. Since then, I have been systematically enhancing my ability to decipher biological mechanisms. In addition to experiments, numerous scientific studies demonstrate that Physics (Francis Crick) and computational analysis can also help us understand the biological phenomena. Thus, I have developed a background in molecular biology, complemented by training in mathematical modeling and core courses for Physics students (including the 3 volumes of the Feynman Lectures on Physics).</description>
+    </item>
     <item>
       <title>Thesis project</title>
       <link>https://astudentfromsustech.github.io/projects/project_0/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/projects/project_0/</guid>
       <description>Thesis project: Dynamic 3D chromatin architecture of active and inactive regions and gene regulation of Drosophila under heat stress if load the figures slowly, please click the link to read its pdf format Fig.1 and Fig.S1 (Experiment design and good data quality) The experiment design (Fig.1A) High reproducibility (Fig.1B,C,D and Fig.S1A,C) Typical heat shock related genes are up-regulated (Fig.1D and Fig.S1B) Fig1 FigS1 Fig.2 and Fig.S2 (The most interesting features blocks in H3K27me3 and stripes in H3K27ac are found through loop analysis) Loop analysis indicates there is something interesting(Fig.</description>
+    </item>
+    <item>
+      <title>Hello, HUGO!</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_0/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_0/</guid>
+      <description>Hello, HUGO! Why? Inspired by the website of Prof. Xi Chen, I also want to build my own website using HUGO with gokarna. I think it&amp;rsquo;s a good way to record my thoughts and progresses, as well as a method to present myself. Besides, it can also encourage me to write more, which I think, is quite important to reorganize various pieces of knowledge and assimilate them into my own understanding.</description>
     </item>
   </channel>
 </rss>
