@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Science on Not a Peeker of Nature</title>
+    <link>https://astudentfromsustech.github.io/tags/computer-science/</link>
+    <description>Recent content in Computer Science on Not a Peeker of Nature</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://astudentfromsustech.github.io/tags/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basis_of_computer</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</guid>
+      <description>1.BIOS What? BIOS stands for &amp;lsquo;Basic Input/Output System&amp;rsquo;.&#xA;Why? Whether SVM mode (for AMD; VT-x for Intel) is enabled in BIOS can affect the functionality of wsl2.</description>
+    </item>
+  </channel>
+</rss>

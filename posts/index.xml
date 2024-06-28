@@ -6,20 +6,34 @@
     <description>Recent content in Posts on Not a Peeker of Nature</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://astudentfromsustech.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Routine_analysis_in_bioinformatics</title>
-      <link>https://astudentfromsustech.github.io/posts/posts_7_routine_pipelines_in_bioinformatics_/</link>
+      <title>Skills to learn</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_skills_to_learn/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_skills_to_learn/</guid>
+      <description>I find there are many useful skills to learn during my research. Sometimes I cannot learn them immediately, so I record them in the post for further study. BIOS stands for&#xA;1. Basis of github 2. Routine pipelines 3. Docker and singularity To be continued &amp;hellip; </description>
+    </item>
+    <item>
+      <title>Basis_of_computer</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</link>
       <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/posts/posts_7_routine_pipelines_in_bioinformatics_/</guid>
+      <guid>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</guid>
+      <description>1.BIOS What? BIOS stands for &amp;lsquo;Basic Input/Output System&amp;rsquo;.&#xA;Why? Whether SVM mode (for AMD; VT-x for Intel) is enabled in BIOS can affect the functionality of wsl2.</description>
+    </item>
+    <item>
+      <title>Routine_analysis_in_bioinformatics</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_7_routine_pipelines_in_bioinformatics/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_7_routine_pipelines_in_bioinformatics/</guid>
       <description>Why? There are two main reasons why I want to record these routine pipelines: (1) save some time if&#xA;Routine analysis 1: volcano plot To be continued &amp;hellip; </description>
     </item>
     <item>
       <title>Routine_pipelines_in_bioinformatics</title>
-      <link>https://astudentfromsustech.github.io/posts/posts_6_routine_analysis_in_bioinformatics_/</link>
+      <link>https://astudentfromsustech.github.io/posts/posts_6_routine_analysis_in_bioinformatics/</link>
       <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/posts/posts_6_routine_analysis_in_bioinformatics_/</guid>
+      <guid>https://astudentfromsustech.github.io/posts/posts_6_routine_analysis_in_bioinformatics/</guid>
       <description>Why? There are lots of packages dealing with various routine analysis in bioinformatics. Many of them are R packages&#xA;Routine analysis 1: volcano plot To be continued &amp;hellip; </description>
     </item>
     <item>
