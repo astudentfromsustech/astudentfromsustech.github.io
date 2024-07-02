@@ -2,28 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://astudentfromsustech.github.io/tags/basis/</loc>
+    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</loc>
+    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://astudentfromsustech.github.io/tags/bios/</loc>
+    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://astudentfromsustech.github.io/tags/computer-science/</loc>
+    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://astudentfromsustech.github.io/tags/hardware/</loc>
+    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://astudentfromsustech.github.io/</loc>
-    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://astudentfromsustech.github.io/posts/</loc>
-    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://astudentfromsustech.github.io/tags/</loc>
+    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://astudentfromsustech.github.io/posts/posts_skills_to_learn/</loc>
     <lastmod>2024-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://astudentfromsustech.github.io/tags/basis/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://astudentfromsustech.github.io/tags/bioinformatics/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://astudentfromsustech.github.io/tags/bios/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://astudentfromsustech.github.io/tags/computer-science/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://astudentfromsustech.github.io/tags/pipeline/</loc>
@@ -36,9 +42,6 @@
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://astudentfromsustech.github.io/posts/posts_6_routine_analysis_in_bioinformatics/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://astudentfromsustech.github.io/tags/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</loc>

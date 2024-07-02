@@ -6,14 +6,14 @@
     <description>Recent content in BIOS on Not a Peeker of Nature</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://astudentfromsustech.github.io/tags/bios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basis_of_computer</title>
       <link>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</link>
-      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</guid>
-      <description>1.BIOS What? BIOS stands for &amp;lsquo;Basic Input/Output System&amp;rsquo;.&#xA;Why? Whether SVM mode (for AMD; VT-x for Intel) is enabled in BIOS can affect the functionality of wsl2.</description>
+      <description>BIOS BIOS stands for &amp;lsquo;Basic Input/Output System&amp;rsquo;. Whether SVM mode (for AMD; VT-x for Intel) is enabled in BIOS can affect the functionality of wsl2.&#xA;Computer hardware Key components to assemble a computer and their functions:&#xA;1. Motherboard The motherboard is the main printed circuit board (PCB) in a computer. It is the central communication backbone connectivity point through which all components and external peripherals connect.&#xA;Functions:&#xA;Component Integration: The motherboard houses the CPU, memory (RAM), and provides connectors for other peripherals like the graphics card, hard drives, and optical drives.</description>
     </item>
   </channel>
 </rss>

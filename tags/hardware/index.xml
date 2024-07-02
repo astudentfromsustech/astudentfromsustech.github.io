@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Computer Science on Not a Peeker of Nature</title>
-    <link>https://astudentfromsustech.github.io/tags/computer-science/</link>
-    <description>Recent content in Computer Science on Not a Peeker of Nature</description>
+    <title>Hardware on Not a Peeker of Nature</title>
+    <link>https://astudentfromsustech.github.io/tags/hardware/</link>
+    <description>Recent content in Hardware on Not a Peeker of Nature</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://astudentfromsustech.github.io/tags/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://astudentfromsustech.github.io/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basis_of_computer</title>
       <link>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</link>
