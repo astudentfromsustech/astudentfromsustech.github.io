@@ -6,21 +6,21 @@
     <description>Recent content on Not a Peeker of Nature</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://astudentfromsustech.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools in bioinformatics</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_9_tools_in_bioinformatics/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_9_tools_in_bioinformatics/</guid>
+      <description>Aspera Why use aspera: Installation on linux: An example of using aspera to download fastq data To be continued&amp;hellip;&amp;hellip; </description>
+    </item>
     <item>
       <title>Basis_of_computer</title>
       <link>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</guid>
       <description>BIOS BIOS stands for &amp;lsquo;Basic Input/Output System&amp;rsquo;. Whether SVM mode (for AMD; VT-x for Intel) is enabled in BIOS can affect the functionality of wsl2.&#xA;Computer hardware Key components to assemble a computer and their functions:&#xA;1. Motherboard The motherboard is the main printed circuit board (PCB) in a computer. It is the central communication backbone connectivity point through which all components and external peripherals connect.&#xA;Functions:&#xA;Component Integration: The motherboard houses the CPU, memory (RAM), and provides connectors for other peripherals like the graphics card, hard drives, and optical drives.</description>
-    </item>
-    <item>
-      <title>Basis_of_computer</title>
-      <link>https://astudentfromsustech.github.io/posts/posts_9_tools_in_bioinformatics/</link>
-      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/posts/posts_9_tools_in_bioinformatics/</guid>
-      <description>Aspera Why use aspera: Installation on linux: An example of using aspera to download fastq data To be continued&amp;hellip;&amp;hellip; </description>
     </item>
     <item>
       <title>Skills to learn</title>
