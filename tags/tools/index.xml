@@ -13,7 +13,7 @@
       <link>https://astudentfromsustech.github.io/posts/posts_9_tools_in_bioinformatics/</link>
       <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_9_tools_in_bioinformatics/</guid>
-      <description>Aspera Why use aspera: Installation on linux: An example of using aspera to download fastq data To be continued&amp;hellip;&amp;hellip; </description>
+      <description>Aspera Why use aspera: a. Reliability and integrity (ensures complete data integrity with checks at every packet transfer point and automatic retry mechanisms that handle intermittent network issues without any data loss or corruption.); b. High-speed transfers&#xA;Installation on linux: An example of using aspera to download fastq data To be continued&amp;hellip;&amp;hellip; </description>
     </item>
   </channel>
 </rss>
