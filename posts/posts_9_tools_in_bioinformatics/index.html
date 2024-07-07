@@ -192,12 +192,17 @@ install (<a href="https://www.cnblogs.com/huanping/p/14308007.html">reference li
 <p>When I studied the docker-based Hi-C pipeline <a href="https://custardpy.readthedocs.io/en/latest/content/StepbyStep.html#optional-download-the-fastq-files">CustardPy</a>,
 I needed to download a series of fastq data: SRR17870713, SRR17870718, SRR17870740.</p>
 <ol>
-<li>Enter SRR17870713 in <a href="https://www.ebi.ac.uk/ena/browser/home">ENA</a>; Then we can click Study Accession to get all data related to SRR17870713;
-<img src="/images/Posts_9/img_2.png" alt=""></li>
-<li>We can download the TSV to extract the &lsquo;fastq_aspera&rsquo; column which contains all the data in the same study, and save it as id.txt
-<img src="/images/Posts_9/img_3.png" alt="">
-<img src="/images/Posts_9/img_4.png" alt="img.png"></li>
-<li>Finally, we can use the following shell script to download all the data using aspera
+<li>
+<p>Enter SRR17870713 in <a href="https://www.ebi.ac.uk/ena/browser/home">ENA</a>; Then we can click Study Accession to get all data related to SRR17870713;
+<img src="/images/Posts_9/img_2.png" alt=""></p>
+</li>
+<li>
+<p>We can download the TSV to extract the &lsquo;fastq_aspera&rsquo; column which contains all the data in the same study, and save it as id.txt
+<img src="/images/Posts_9/img_3.png" alt=""></p>
+<p><img src="/images/Posts_9/img_4.png" alt="img.png"></p>
+</li>
+<li>
+<p>Finally, we can use the following shell script to download all the data using aspera</p>
 <pre tabindex="0"><code>key=/home/yinpf/.aspera/connect/etc/asperaweb_id_dsa.openssh
 for round in $(seq 1 10)
 do
@@ -209,9 +214,11 @@ do
      done
 done
 </code></pre></li>
-<li>Additionally, we can also use <a href="https://sra-explorer.info/#">SRA Explorer</a> to download these data.
+<li>
+<p>Additionally, we can also use <a href="https://sra-explorer.info/#">SRA Explorer</a> to download these data.
 Enter SRR17870713, SRR17870718, SRR17870740 in
-<img src="/images/Posts_9/img_1.png" alt=""></li>
+<img src="/images/Posts_9/img_1.png" alt=""></p>
+</li>
 </ol>
 <h1 id="to-be-continued">#To be continued&hellip;&hellip;</h1>
 
