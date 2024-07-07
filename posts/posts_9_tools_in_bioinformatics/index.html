@@ -181,7 +181,7 @@
     </div>
 
     <div class="post-content">
-        <h1 id="aspera">Aspera</h1>
+        <h1 id="aspera">#Aspera</h1>
 <h3 id="why-use-aspera">Why use aspera:</h3>
 <p>a. Reliability and integrity (ensures complete data integrity with checks at every packet transfer point and automatic
 retry mechanisms that handle intermittent network issues without any data loss or corruption.); b. High-speed transfers</p>
@@ -192,11 +192,28 @@ install (<a href="https://www.cnblogs.com/huanping/p/14308007.html">reference li
 <p>When I studied the docker-based Hi-C pipeline <a href="https://custardpy.readthedocs.io/en/latest/content/StepbyStep.html#optional-download-the-fastq-files">CustardPy</a>,
 I needed to download a series of fastq data: SRR17870713, SRR17870718, SRR17870740.</p>
 <ol>
-<li>Enter SRR17870713, SRR17870718, SRR17870740 in <a href="https://sra-explorer.info/#">SRA Explorer</a>
+<li>Enter SRR17870713 in <a href="https://www.ebi.ac.uk/ena/browser/home">ENA</a>; Then we can click Study Accession to get all data related to SRR17870713;
+<img src="/images/Posts_9/img_2.png" alt=""></li>
+<li>We can download the TSV to extract the &lsquo;fastq_aspera&rsquo; column which contains all the data in the same study, and save it as id.txt
+<img src="/images/Posts_9/img_3.png" alt="">
+<img src="../../static/images/Posts_9/img_4.png" alt="img.png"></li>
+<li>Finally, we can use the following shell script to download all the data using aspera
+<pre tabindex="0"><code>key=/home/yinpf/.aspera/connect/etc/asperaweb_id_dsa.openssh
+for round in $(seq 1 10)
+do
+     for i in `cat id.txt`
+     do
+             echo $i
+             shorti=$(echo &#34;$i&#34; | sed &#39;s|ftp.sra.ebi.ac.uk||&#39;)
+             ascp -QT -k 1 -v -l 300m -P33001 -i $key era-fasp@fasp.sra.ebi.ac.uk:$shorti .
+     done
+done
+</code></pre></li>
+<li>Additionally, we can also use <a href="https://sra-explorer.info/#">SRA Explorer</a> to download these data.
+Enter SRR17870713, SRR17870718, SRR17870740 in
 <img src="/images/Posts_9/img_1.png" alt=""></li>
-<li>Run the command in Linux</li>
 </ol>
-<h2 id="to-be-continued">To be continued&hellip;&hellip;</h2>
+<h1 id="to-be-continued">#To be continued&hellip;&hellip;</h1>
 
         
     </div>
