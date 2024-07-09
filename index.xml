@@ -6,8 +6,15 @@
     <description>Recent content on Not a Peeker of Nature</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://astudentfromsustech.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quickstart of wsl2</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_10_basis_for_wsl2/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_10_basis_for_wsl2/</guid>
+      <description>#Install wsl2 Why use aspera: a. Reliability and integrity (ensures complete data integrity with checks at every packet transfer point and automatic retry mechanisms that handle intermittent network issues without any data loss or corruption.); b. High-speed transfers&#xA;#Install conda #To be continued&amp;hellip;&amp;hellip; </description>
+    </item>
     <item>
       <title>Tools in bioinformatics</title>
       <link>https://astudentfromsustech.github.io/posts/posts_9_tools_in_bioinformatics/</link>
