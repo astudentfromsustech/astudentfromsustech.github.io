@@ -13,7 +13,7 @@
       <link>https://astudentfromsustech.github.io/posts/posts_10_basis_for_wsl2/</link>
       <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_10_basis_for_wsl2/</guid>
-      <description>#Install wsl2 #Install conda #To be continued&amp;hellip;&amp;hellip; </description>
+      <description>#Install wsl2 I usually use VPN, so not only will it require me to set the network (wifi/ethernet), but also require me to set the DNS of the wsl2 as 8.8.8.8 and 8.8.4.4 #Install conda Why? Configuring environment is quite important, and sometimes annoying especially for a beginner. The issues can be various, so I&amp;rsquo;d like to collect them in the post. There are two main benefits for me: one is to save time if I have the same issue next time, another is to build a framework of virtual environment so that I can really understand how it works.</description>
     </item>
     <item>
       <title>Tools in bioinformatics</title>
@@ -34,7 +34,7 @@
       <link>https://astudentfromsustech.github.io/posts/posts_skills_to_learn/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_skills_to_learn/</guid>
-      <description>Basis of github Routine pipelines 1. RNA-seq: https://rumball.readthedocs.io/en/latest/ 2. ChIP-seq: https://churros.readthedocs.io/en/latest/ 3. Hi-C: https://custardpy.readthedocs.io/en/latest/ 4. Single-cell: https://github.com/rnakato/ShortCake Docker and singularity To be continued &amp;hellip; </description>
+      <description>Basis of github Routine pipelines 1. RNA-seq: https://rumball.readthedocs.io/en/latest/ 2. ChIP-seq: https://churros.readthedocs.io/en/latest/ 3. Hi-C: https://custardpy.readthedocs.io/en/latest/ 4. Single-cell: https://github.com/rnakato/ShortCake Docker and singularity docker-registry-mirrors for faster download in mainland China To be continued &amp;hellip; </description>
     </item>
     <item>
       <title>Routine_analysis_in_bioinformatics</title>
@@ -62,7 +62,7 @@
       <link>https://astudentfromsustech.github.io/posts/posts_5_virtual_environment/</link>
       <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_5_virtual_environment/</guid>
-      <description>Why? Configuring environment is quite important, and sometimes annoying especially for a beginner. The issues can be various, so I&amp;rsquo;d like to collect them in the post. There are two main benefits for me: one is to save time if I have the same issue next time, another is to build a framework of virtual environment so that I can really understand how it works.&#xA;Background information h Issues To be continued &amp;hellip; </description>
+      <description>To be continued &amp;hellip; </description>
     </item>
     <item>
       <title>Nomenclature of genes and proteins</title>
