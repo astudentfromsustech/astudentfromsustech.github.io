@@ -6,14 +6,42 @@
     <description>Recent content on Not a Peeker of Nature</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://astudentfromsustech.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probability and statistics</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_13_course_1_probability_and_statistics/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_13_course_1_probability_and_statistics/</guid>
+      <description>#1 The basis of probability reference link&#xA;#2 Random variable reference link&#xA;#3 Discrete random variable reference link&#xA;#4 Continuous random variable reference link&#xA;#5 Normal distribution reference link&#xA;#6 Joint probability distribution (1) reference link&#xA;#7 Joint probability distribution (2) reference link&#xA;#8 Joint probability distribution (3) reference link&#xA;#9 Joint probability distribution (4) reference link&#xA;#10 Typical distributions (t distribution, chi-square distribution, F distribution) reference link&#xA;#11 From probability to statistics reference link</description>
+    </item>
+    <item>
+      <title>Signal processing</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_13_course_2_signal_processing/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_13_course_2_signal_processing/</guid>
+      <description>#1 The basis of probability Digital signal processing&#xA;#Appendix 1 Gassian kernel&#xA;To be continued &amp;hellip; </description>
+    </item>
+    <item>
+      <title>Techniques</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_14_techiniques/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_14_techiniques/</guid>
+      <description>#ChIP-seq Digital signal processing&#xA;#RNA-seq To be continued &amp;hellip; </description>
+    </item>
     <item>
       <title>Quickstart of wsl2</title>
       <link>https://astudentfromsustech.github.io/posts/posts_10_basis_for_wsl2/</link>
       <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_10_basis_for_wsl2/</guid>
       <description>#Install wsl2 I usually use VPN, so not only will it require me to set the network (wifi/ethernet), but also require me to set the DNS of the wsl2 as 8.8.8.8 and 8.8.4.4 #Install conda Why? Configuring environment is quite important, and sometimes annoying especially for a beginner. The issues can be various, so I&amp;rsquo;d like to collect them in the post. There are two main benefits for me: one is to save time if I have the same issue next time, another is to build a framework of virtual environment so that I can really understand how it works.</description>
+    </item>
+    <item>
+      <title>Tools in bioinformatics</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_9_database_in_bioinformatics/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_9_database_in_bioinformatics/</guid>
+      <description>#Dataset Multiomics (bulk cell): bulk ATAC-seq database https://academic.oup.com/nar/article/49/D1/D55/5943839 bulk ChIP-seq and ATAC-seq database https://chip-atlas.org/ Other ATAC-seq or ChIP-seq data can be downloaded from GEO (https://www.ncbi.nlm.nih.gov/geo/) or Encode https://www.encodeproject.org/matrix/?type=Experiment&amp;amp;control_type!=*&amp;amp;status=released&amp;amp;perturbed=false roadmap (https://egg2.wustl.edu/roadmap) Multiomics (single cell): single cell database: https://data.humancellatlas.org/ human tumor: https://humantumoratlas.org/ Genome and annotations: UCSC for genome https://hgdownload.soe.ucsc.edu/downloads.html (eg. https://hgdownload.soe.ucsc.edu/goldenPath/dm3/) Ensembl for refgenes annotations https://ftp.ensembl.org/pub/ sybapse ypf2944164500@gmail.com @ypf19950216 Appendix1: Kingfisher is a package for downloading fastq data&#xA;kingfisher get -p PRJNA938179 -m aws-http prefetch aws-cp gcp-cp ena-ftp -f fastq --check-md5sums kingfisher get -p PRJNA938179 -m aws-http prefetch aws-cp gcp-cp ena-ftp -t 16 -f fastq.</description>
     </item>
     <item>
       <title>Tools in bioinformatics</title>
@@ -30,11 +58,18 @@
       <description>#BIOS BIOS stands for &amp;lsquo;Basic Input/Output System&amp;rsquo;. Whether SVM mode (for AMD; VT-x for Intel) is enabled in BIOS can affect the functionality of wsl2.&#xA;#Computer hardware Key components to assemble a computer and their functions:&#xA;1. Motherboard The motherboard is the main printed circuit board (PCB) in a computer. It is the central communication backbone connectivity point through which all components and external peripherals connect.&#xA;Functions:&#xA;Component Integration: The motherboard houses the CPU, memory (RAM), and provides connectors for other peripherals like the graphics card, hard drives, and optical drives.</description>
     </item>
     <item>
-      <title>Skills to learn</title>
-      <link>https://astudentfromsustech.github.io/posts/posts_skills_to_learn/</link>
+      <title>Skills to learn (1)</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_11_skills_to_learn1/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/posts/posts_skills_to_learn/</guid>
-      <description>Basis of github Routine pipelines 1. RNA-seq: https://rumball.readthedocs.io/en/latest/ 2. ChIP-seq: https://churros.readthedocs.io/en/latest/ 3. Hi-C: https://custardpy.readthedocs.io/en/latest/ 4. Single-cell: https://github.com/rnakato/ShortCake Docker and singularity docker-registry-mirrors for faster download in mainland China To be continued &amp;hellip; </description>
+      <guid>https://astudentfromsustech.github.io/posts/posts_11_skills_to_learn1/</guid>
+      <description>#Basis of github #Routine pipelines 1. RNA-seq: https://rumball.readthedocs.io/en/latest/ 2. ChIP-seq: https://churros.readthedocs.io/en/latest/ 3. Hi-C: https://custardpy.readthedocs.io/en/latest/ 4. Single-cell: https://github.com/rnakato/ShortCake #Routine analysis DEG analysis&#xA;data_downloaded #Docker and singularity Introduction Docker VS singularity: are both containerization platforms, competitors. Docker/singularity: manage containers which contain packages, depencies, scripts, even data; Conda: manage virtual environments which contain packages. Installation For window, desk-top version of docker is recommended; If we use VPN in mainland China, we had better change DNS of wsl2 and network (wifi/ethernet) into that of Google (8.</description>
+    </item>
+    <item>
+      <title>Skills to learn (2)</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_12_skills_to_learn2/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_12_skills_to_learn2/</guid>
+      <description>#How to write a python package reference link&#xA;To be continued &amp;hellip; </description>
     </item>
     <item>
       <title>Routine_analysis_in_bioinformatics</title>

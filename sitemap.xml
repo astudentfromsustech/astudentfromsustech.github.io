@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://astudentfromsustech.github.io/</loc>
-    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://astudentfromsustech.github.io/posts/</loc>
-    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://astudentfromsustech.github.io/posts/posts_13_course_1_probability_and_statistics/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://astudentfromsustech.github.io/posts/posts_13_course_2_signal_processing/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://astudentfromsustech.github.io/posts/posts_14_techiniques/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://astudentfromsustech.github.io/posts/posts_10_basis_for_wsl2/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
@@ -17,7 +26,13 @@
     <loc>https://astudentfromsustech.github.io/tags/wsl2/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://astudentfromsustech.github.io/tags/database/</loc>
+    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://astudentfromsustech.github.io/tags/tools/</loc>
+    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://astudentfromsustech.github.io/posts/posts_9_database_in_bioinformatics/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://astudentfromsustech.github.io/posts/posts_9_tools_in_bioinformatics/</loc>
@@ -38,7 +53,10 @@
     <loc>https://astudentfromsustech.github.io/tags/hardware/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://astudentfromsustech.github.io/posts/posts_skills_to_learn/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_11_skills_to_learn1/</loc>
+    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://astudentfromsustech.github.io/posts/posts_12_skills_to_learn2/</loc>
     <lastmod>2024-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://astudentfromsustech.github.io/tags/bioinformatics/</loc>

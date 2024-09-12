@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database on Not a Peeker of Nature</title>
+    <link>https://astudentfromsustech.github.io/tags/database/</link>
+    <description>Recent content in Database on Not a Peeker of Nature</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://astudentfromsustech.github.io/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools in bioinformatics</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_9_database_in_bioinformatics/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_9_database_in_bioinformatics/</guid>
+      <description>#Dataset Multiomics (bulk cell): bulk ATAC-seq database https://academic.oup.com/nar/article/49/D1/D55/5943839 bulk ChIP-seq and ATAC-seq database https://chip-atlas.org/ Other ATAC-seq or ChIP-seq data can be downloaded from GEO (https://www.ncbi.nlm.nih.gov/geo/) or Encode https://www.encodeproject.org/matrix/?type=Experiment&amp;amp;control_type!=*&amp;amp;status=released&amp;amp;perturbed=false roadmap (https://egg2.wustl.edu/roadmap) Multiomics (single cell): single cell database: https://data.humancellatlas.org/ human tumor: https://humantumoratlas.org/ Genome and annotations: UCSC for genome https://hgdownload.soe.ucsc.edu/downloads.html (eg. https://hgdownload.soe.ucsc.edu/goldenPath/dm3/) Ensembl for refgenes annotations https://ftp.ensembl.org/pub/ sybapse ypf2944164500@gmail.com @ypf19950216 Appendix1: Kingfisher is a package for downloading fastq data&#xA;kingfisher get -p PRJNA938179 -m aws-http prefetch aws-cp gcp-cp ena-ftp -f fastq --check-md5sums kingfisher get -p PRJNA938179 -m aws-http prefetch aws-cp gcp-cp ena-ftp -t 16 -f fastq.</description>
+    </item>
+  </channel>
+</rss>
