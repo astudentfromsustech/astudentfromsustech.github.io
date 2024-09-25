@@ -100,32 +100,32 @@
       <description>Why? When I wrote my thesis, I did not write the gene names in italics. Here is the summary I find in Zhihu. I think the summary is clear and enough for me.</description>
     </item>
     <item>
+      <title>Draw figures for publications</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</guid>
+      <description>Why? Usually, I use Python with ggplot style to draw plots and take screenshots of date displayed in browser. Then, I organize them into a full figure in PPT. But there are two problems that trouble me: one is the low resolution, and the other is the inconvenience when converting from one layout to another. When I read the post &amp;ldquo;Drawing Vector Graphics For Publication Figures&amp;rdquo; published by Prof. Xi Chen, I realized there are some better methods.</description>
+    </item>
+    <item>
       <title>SSH service</title>
       <link>https://astudentfromsustech.github.io/posts/posts_2/</link>
-      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_2/</guid>
       <description>SSH service Why? There are two main reasons for me to start SSH service on WSL:&#xA;It&amp;rsquo;s convenient for me to operate my host machine in the lab. As long as there is a low-end, lightweight MacBook, we can deal with some tasks with SSH connecting to my host machine How? I tried many tutorials on the Internet, most of them don&amp;rsquo;t work. So, I want to record how to do it step by step (Reference blog).</description>
     </item>
     <item>
       <title>HUGO, follow-up</title>
       <link>https://astudentfromsustech.github.io/posts/posts_1/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_1/</guid>
       <description>Hello, HUGO! Why? Inspired by the website of Prof.XiChen, I also want to build my own website using HUGO with gokarna theme. I think it&amp;rsquo;s a good way to record my thoughts and progresses, as well as a method to present myself. Besides, it can also encourage me to write more, which I think, is quite important to reorganize various pieces of knowledge and assimilate them into my own understanding.</description>
     </item>
     <item>
       <title>Hello, HUGO!</title>
       <link>https://astudentfromsustech.github.io/posts/posts_0/</link>
-      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_0/</guid>
       <description>Hello, HUGO! Why? Inspired by the website of Prof. Xi Chen, I also want to build my own website using HUGO with gokarna. I think it&amp;rsquo;s a good way to record my thoughts and progresses, as well as a method to present myself. Besides, it can also encourage me to write more, which I think, is quite important to reorganize various pieces of knowledge and assimilate them into my own understanding.</description>
-    </item>
-    <item>
-      <title>Draw figures for publications</title>
-      <link>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</link>
-      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</guid>
-      <description>Why? Usually, I use Python with ggplot style to draw plots and take screenshots of date displayed in browser. Then, I organize them into a full figure in PPT. But there are two problems that trouble me: one is the low resolution, and the other is the inconvenience when converting from one layout to another. When I read the post &amp;ldquo;Drawing Vector Graphics For Publication Figures&amp;rdquo; published by Prof. Xi Chen, I realized there are some better methods.</description>
     </item>
   </channel>
 </rss>

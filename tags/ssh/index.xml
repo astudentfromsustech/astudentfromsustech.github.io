@@ -6,12 +6,12 @@
     <description>Recent content in SSH on Not a Peeker of Nature</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://astudentfromsustech.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSH service</title>
       <link>https://astudentfromsustech.github.io/posts/posts_2/</link>
-      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_2/</guid>
       <description>SSH service Why? There are two main reasons for me to start SSH service on WSL:&#xA;It&amp;rsquo;s convenient for me to operate my host machine in the lab. As long as there is a low-end, lightweight MacBook, we can deal with some tasks with SSH connecting to my host machine How? I tried many tutorials on the Internet, most of them don&amp;rsquo;t work. So, I want to record how to do it step by step (Reference blog).</description>
     </item>
