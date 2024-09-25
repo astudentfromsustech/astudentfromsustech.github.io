@@ -41,7 +41,7 @@
       <link>https://astudentfromsustech.github.io/posts/posts_9_database_in_bioinformatics/</link>
       <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_9_database_in_bioinformatics/</guid>
-      <description>#Dataset Multiomics (bulk cell): bulk ATAC-seq database https://academic.oup.com/nar/article/49/D1/D55/5943839 bulk ChIP-seq and ATAC-seq database https://chip-atlas.org/ Other ATAC-seq or ChIP-seq data can be downloaded from GEO (https://www.ncbi.nlm.nih.gov/geo/) or Encode https://www.encodeproject.org/matrix/?type=Experiment&amp;amp;control_type!=*&amp;amp;status=released&amp;amp;perturbed=false roadmap (https://egg2.wustl.edu/roadmap) Multiomics (single cell): single cell database: https://data.humancellatlas.org/ human tumor: https://humantumoratlas.org/ Genome and annotations: UCSC for genome https://hgdownload.soe.ucsc.edu/downloads.html (eg. https://hgdownload.soe.ucsc.edu/goldenPath/dm3/) Ensembl for refgenes annotations https://ftp.ensembl.org/pub/ sybapse ypf2944164500@gmail.com @ypf19950216 Appendix1: Kingfisher is a package for downloading fastq data&#xA;kingfisher get -p PRJNA938179 -m aws-http prefetch aws-cp gcp-cp ena-ftp -f fastq --check-md5sums kingfisher get -p PRJNA938179 -m aws-http prefetch aws-cp gcp-cp ena-ftp -t 16 -f fastq.</description>
+      <description>#Dataset Multiomics (bulk cell): bulk ATAC-seq database https://academic.oup.com/nar/article/49/D1/D55/5943839 bulk ChIP-seq and ATAC-seq database https://chip-atlas.org/ Other ATAC-seq or ChIP-seq data can be downloaded from GEO (https://www.ncbi.nlm.nih.gov/geo/) or Encode https://www.encodeproject.org/matrix/?type=Experiment&amp;amp;control_type!=*&amp;amp;status=released&amp;amp;perturbed=false roadmap (https://egg2.wustl.edu/roadmap) Multiomics (single cell): single cell database: https://data.humancellatlas.org/ human tumor: https://humantumoratlas.org/ Genome and annotations: UCSC for genome https://hgdownload.soe.ucsc.edu/downloads.html (eg. https://hgdownload.soe.ucsc.edu/goldenPath/dm3/) Ensembl for refgenes annotations https://ftp.ensembl.org/pub/ sybapse ypf2944164500@gmail.com @ypf19950216 Summary of online resources in genomics Appendix1: Kingfisher is a package for downloading fastq data</description>
     </item>
     <item>
       <title>Tools in bioinformatics</title>
@@ -84,13 +84,6 @@
       <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_6_routine_analysis_in_bioinformatics/</guid>
       <description>Why? There are lots of packages dealing with various routine analysis in bioinformatics. Many of them are R packages&#xA;Routine analysis 1: volcano plot To be continued &amp;hellip; </description>
-    </item>
-    <item>
-      <title>Draw figures for publications</title>
-      <link>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</link>
-      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</guid>
-      <description>Why? Usually, I use Python with ggplot style to draw plots and take screenshots of date displayed in browser. Then, I organize them into a full figure in PPT. But there are two problems that trouble me: one is the low resolution, and the other is the inconvenience when converting from one layout to another. When I read the post &amp;ldquo;Drawing Vector Graphics For Publication Figures&amp;rdquo; published by Prof. Xi Chen, I realized there are some better methods.</description>
     </item>
     <item>
       <title>Issues collection about virtual environment</title>
@@ -154,6 +147,13 @@
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/posts_0/</guid>
       <description>Hello, HUGO! Why? Inspired by the website of Prof. Xi Chen, I also want to build my own website using HUGO with gokarna. I think it&amp;rsquo;s a good way to record my thoughts and progresses, as well as a method to present myself. Besides, it can also encourage me to write more, which I think, is quite important to reorganize various pieces of knowledge and assimilate them into my own understanding.</description>
+    </item>
+    <item>
+      <title>Draw figures for publications</title>
+      <link>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</guid>
+      <description>Why? Usually, I use Python with ggplot style to draw plots and take screenshots of date displayed in browser. Then, I organize them into a full figure in PPT. But there are two problems that trouble me: one is the low resolution, and the other is the inconvenience when converting from one layout to another. When I read the post &amp;ldquo;Drawing Vector Graphics For Publication Figures&amp;rdquo; published by Prof. Xi Chen, I realized there are some better methods.</description>
     </item>
   </channel>
 </rss>

@@ -79,20 +79,6 @@
       <description></description>
     </item>
     <item>
-      <title>Figures</title>
-      <link>https://astudentfromsustech.github.io/tags/figures/</link>
-      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/tags/figures/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Publication</title>
-      <link>https://astudentfromsustech.github.io/tags/publication/</link>
-      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/tags/publication/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Pycharm</title>
       <link>https://astudentfromsustech.github.io/tags/pycharm/</link>
       <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
@@ -121,6 +107,13 @@
       <description></description>
     </item>
     <item>
+      <title>Publication</title>
+      <link>https://astudentfromsustech.github.io/tags/publication/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/tags/publication/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>SSH</title>
       <link>https://astudentfromsustech.github.io/tags/ssh/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
@@ -132,6 +125,13 @@
       <link>https://astudentfromsustech.github.io/tags/hugo/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Figures</title>
+      <link>https://astudentfromsustech.github.io/tags/figures/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/tags/figures/</guid>
       <description></description>
     </item>
   </channel>
