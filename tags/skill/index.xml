@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skill on Not a Peeker of Nature</title>
+    <link>https://astudentfromsustech.github.io/tags/skill/</link>
+    <description>Recent content in Skill on Not a Peeker of Nature</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://astudentfromsustech.github.io/tags/skill/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Skills summary</title>
+      <link>https://astudentfromsustech.github.io/posts/0_tools_summary/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/0_tools_summary/</guid>
+      <description>&lt;h2 id=&#34;build-personal-website-and-host-it-on-github&#34;&gt;#Build personal website and host it on github&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-using-hugo-with-gokarna-as-the-theme&#34;&gt;1. Using Hugo with &lt;a href=&#34;https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/#installation&#34;&gt;Gokarna&lt;/a&gt; as the theme&lt;/h3&gt;&#xA;&lt;h4 id=&#34;a-follow-the-gokarna-tutorial-to-install-go-hugo-and-git&#34;&gt;a. Follow the &lt;a href=&#34;https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/#installation&#34;&gt;Gokarna tutorial&lt;/a&gt; to install GO, HUGO, and git&lt;/h4&gt;&#xA;&lt;h4 id=&#34;b-create-the-project-and-install-gokarna-theme&#34;&gt;b. Create the project and install Gokarna theme&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;hugo new site my-website&#xA;cd my-website&#xA;git init&#xA;git submodule add https://github.com/gokarna-theme/gokarna-hugo.git themes/gokarna&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h4 id=&#34;c-fill-in-configuaration-file&#34;&gt;c. Fill in configuaration file&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;image.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
