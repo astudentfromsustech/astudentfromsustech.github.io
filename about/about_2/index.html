@@ -168,7 +168,56 @@
 <main id="content">
     
 
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>About me (with figure)</h1>
+    </div>
+
+    <div class="post-content">
+        <h3 id="about-me">About me</h3>
+<p>My name is Pengfei Yin (殷鹏飞). I completed my BSc at the Ocean University of China, where I was deeply
+attracted to how mechanisms underlying molecular biology are discovered. Since then, I have been systematically enhancing my
+ability to decipher biological mechanisms. In addition to experiments, numerous scientific studies demonstrate that Physics (<a href="https://en.wikipedia.org/wiki/Francis_Crick">Francis Crick</a>)
+and computational analysis can also help us understand the biological phenomena. Thus, I have developed a background in molecular biology,
+complemented by training in mathematical modeling and core courses for Physics students (including the 3 volumes of <a href="https://en.wikipedia.org/wiki/The_Feynman_Lectures_on_Physics">the Feynman Lectures on Physics</a>).</p>
+<p>After graduation, I joined the Meizhen Zheng&rsquo;s Lab in Southern University of Science and Technology (SUSTech) to study 3D
+genomics. <a href="https://astudentfromsustech.github.io/projects/project_0/">My thesis project</a> is to use computational and
+theoretical method to explore dynamic 3D chromatin architecture of active and inactive regions and gene regulation of Drosophila
+under heat stress.</p>
+
+    </div>
     
+    
+        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
+    
+    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+</svg>
+<script>
+    let backToTopButton = document.getElementById("btt-button");
+
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
+
+    
+</div>
+
+
+
 
         </main><footer class="footer">
     
