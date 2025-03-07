@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nomenclature on Not a Peeker of Nature</title>
-    <link>http://localhost:1313/tags/nomenclature/</link>
+    <link>https://astudentfromsustech.github.io/tags/nomenclature/</link>
     <description>Recent content in Nomenclature on Not a Peeker of Nature</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/nomenclature/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://astudentfromsustech.github.io/tags/nomenclature/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nomenclature of genes and proteins</title>
-      <link>http://localhost:1313/posts/posts_3_manuscript_gene_name/</link>
+      <link>https://astudentfromsustech.github.io/posts/posts_3_manuscript_gene_name/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/posts_3_manuscript_gene_name/</guid>
+      <guid>https://astudentfromsustech.github.io/posts/posts_3_manuscript_gene_name/</guid>
       <description>&lt;h4 id=&#34;why&#34;&gt;Why?&lt;/h4&gt;&#xA;&lt;p&gt;When I wrote my thesis, I did not write the gene names in italics. Here is the &lt;a href=&#34;https://www.zhihu.com/question/57022981&#34;&gt;summary&lt;/a&gt;&#xA;I find in Zhihu. I think&#xA;the summary is clear and enough for me.&lt;/p&gt;</description>
     </item>
   </channel>

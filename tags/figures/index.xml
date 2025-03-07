@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Figures on Not a Peeker of Nature</title>
-    <link>http://localhost:1313/tags/figures/</link>
+    <link>https://astudentfromsustech.github.io/tags/figures/</link>
     <description>Recent content in Figures on Not a Peeker of Nature</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/figures/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://astudentfromsustech.github.io/tags/figures/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Draw figures for publications</title>
-      <link>http://localhost:1313/posts/posts_4_manuscript_draw_vectorgraphic/</link>
+      <link>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</link>
       <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/posts_4_manuscript_draw_vectorgraphic/</guid>
+      <guid>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</guid>
       <description>&lt;h3 id=&#34;why&#34;&gt;Why?&lt;/h3&gt;&#xA;&lt;p&gt;Usually, I use Python with ggplot style to draw plots and take screenshots of date displayed in browser. Then, I organize&#xA;them into a full figure in PPT. &lt;!-- raw HTML omitted --&gt; But there are two problems that trouble me: one is the low resolution, and the other is the&#xA;inconvenience when converting from one layout to another&lt;!-- raw HTML omitted --&gt;.&#xA;When I read the post &lt;a href=&#34;https://notarocketscientist.xyz/posts/2024-02-14-drawing-vector-graphics-for-publication-figures/&#34;&gt;&amp;ldquo;Drawing Vector Graphics For Publication Figures&amp;rdquo;&lt;/a&gt;&#xA;published by Prof. Xi Chen, I realized there are some better methods. Besides, I&amp;rsquo;m impressed by simplicity and beauty of the figures drawn&#xA;by Prof. Xi Chen. Previously, I thought of pictures merely as a means of presentation, with the core being the findings and&#xA;story of the entire project. Therefore, I consider drawing figures to be a reluctant task, not mention to beautify it.&#xA;But the fact is that beautiful figures are indispensable to attract readers&amp;rsquo; attention to the content. So, why not treat drawing figures&#xA;as artwork and enjoy the process!&lt;/p&gt;</description>
     </item>
   </channel>

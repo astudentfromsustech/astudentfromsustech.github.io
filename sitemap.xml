@@ -2,135 +2,135 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://astudentfromsustech.github.io/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_13_course_1_probability_and_statistics/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_13_course_1_probability_and_statistics/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_13_course_2_signal_processing/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_13_course_2_signal_processing/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_14_techiniques/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_14_techiniques/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_10_basis_for_wsl2/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_10_basis_for_wsl2/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/wsl2/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/wsl2/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/database/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/database/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tools/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/tools/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_9_database_in_bioinformatics/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_9_database_in_bioinformatics/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_9_tools_in_bioinformatics/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_9_tools_in_bioinformatics/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/basis/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/basis/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_8_basis_of_computer/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_8_basis_of_computer/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bios/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/bios/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/computer-science/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/computer-science/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hardware/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/hardware/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_11_skills_to_learn1/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_11_skills_to_learn1/</loc>
     <lastmod>2024-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bioinformatics/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/bioinformatics/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pipeline/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/pipeline/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/routine-analysis/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/routine-analysis/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_7_routine_pipelines_in_bioinformatics/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_7_routine_pipelines_in_bioinformatics/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_6_routine_analysis_in_bioinformatics/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_6_routine_analysis_in_bioinformatics/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_5_virtual_environment/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_5_virtual_environment/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pycharm/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/pycharm/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/virtual-environment/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/virtual-environment/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/wsl/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/wsl/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nomenclature/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/nomenclature/</loc>
     <lastmod>2024-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_3_manuscript_gene_name/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_3_manuscript_gene_name/</loc>
     <lastmod>2024-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/publication/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/publication/</loc>
     <lastmod>2024-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/about_1/</loc>
+    <loc>https://astudentfromsustech.github.io/about/about_1/</loc>
     <lastmod>2024-04-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://astudentfromsustech.github.io/about/</loc>
     <lastmod>2024-04-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/about_0/</loc>
+    <loc>https://astudentfromsustech.github.io/about/about_0/</loc>
     <lastmod>2024-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/about_2/</loc>
+    <loc>https://astudentfromsustech.github.io/about/about_2/</loc>
     <lastmod>2024-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://astudentfromsustech.github.io/projects/</loc>
     <lastmod>2024-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/project_0/</loc>
+    <loc>https://astudentfromsustech.github.io/projects/project_0/</loc>
     <lastmod>2024-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_4_manuscript_draw_vectorgraphic/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_4_manuscript_draw_vectorgraphic/</loc>
     <lastmod>2024-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/figures/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/figures/</loc>
     <lastmod>2024-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ssh/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/ssh/</loc>
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_2/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_2/</loc>
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://astudentfromsustech.github.io/tags/hugo/</loc>
     <lastmod>2024-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_1/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_1/</loc>
     <lastmod>2024-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/posts_0/</loc>
+    <loc>https://astudentfromsustech.github.io/posts/posts_0/</loc>
     <lastmod>2024-02-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://astudentfromsustech.github.io/categories/</loc>
   </url>
 </urlset>

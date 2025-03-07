@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Virtual Environment on Not a Peeker of Nature</title>
-    <link>http://localhost:1313/tags/virtual-environment/</link>
+    <link>https://astudentfromsustech.github.io/tags/virtual-environment/</link>
     <description>Recent content in Virtual Environment on Not a Peeker of Nature</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/virtual-environment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://astudentfromsustech.github.io/tags/virtual-environment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Issues collection about virtual environment</title>
-      <link>http://localhost:1313/posts/posts_5_virtual_environment/</link>
+      <link>https://astudentfromsustech.github.io/posts/posts_5_virtual_environment/</link>
       <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/posts_5_virtual_environment/</guid>
+      <guid>https://astudentfromsustech.github.io/posts/posts_5_virtual_environment/</guid>
       <description>&lt;h4 id=&#34;to-be-continued-&#34;&gt;To be continued &amp;hellip;&lt;/h4&gt;</description>
     </item>
   </channel>
