@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSH on Not a Peeker of Nature</title>
+    <link>http://localhost:1313/tags/ssh/</link>
+    <description>Recent content in SSH on Not a Peeker of Nature</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSH service</title>
+      <link>http://localhost:1313/posts/posts_2/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/posts_2/</guid>
+      <description>&lt;h3 id=&#34;ssh-service&#34;&gt;SSH service&lt;/h3&gt;&#xA;&lt;h4 id=&#34;why&#34;&gt;Why?&lt;/h4&gt;&#xA;&lt;p&gt;There are two main reasons for me to start SSH service on WSL:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;It&amp;rsquo;s convenient for me to operate my host machine in the lab.&lt;/li&gt;&#xA;&lt;li&gt;As long as there is a low-end, lightweight MacBook, we can deal with some tasks with SSH connecting to my host machine&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h4 id=&#34;how&#34;&gt;How?&lt;/h4&gt;&#xA;&lt;p&gt;I tried many tutorials on the Internet, most of them don&amp;rsquo;t work. So, I want to record how to do it step by step (&lt;a href=&#34;https://zhuanlan.zhihu.com/p/372601715&#34;&gt;Reference blog&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

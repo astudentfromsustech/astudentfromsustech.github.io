@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Not a Peeker of Nature</title>
+    <link>http://localhost:1313/tags/tools/</link>
+    <description>Recent content in Tools on Not a Peeker of Nature</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools in bioinformatics</title>
+      <link>http://localhost:1313/posts/posts_9_tools_in_bioinformatics/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/posts_9_tools_in_bioinformatics/</guid>
+      <description>&lt;h1 id=&#34;aspera&#34;&gt;#Aspera&lt;/h1&gt;&#xA;&lt;h3 id=&#34;why-use-aspera&#34;&gt;Why use aspera:&lt;/h3&gt;&#xA;&lt;p&gt;a. Reliability and integrity (ensures complete data integrity with checks at every packet transfer point and automatic&#xA;retry mechanisms that handle intermittent network issues without any data loss or corruption.); b. High-speed transfers&lt;/p&gt;&#xA;&lt;h3 id=&#34;installation-on-linux&#34;&gt;Installation on linux:&lt;/h3&gt;&#xA;&lt;p&gt;We can use conda or source code to install. Here we choose conda to&#xA;install (&lt;a href=&#34;https://www.cnblogs.com/huanping/p/14308007.html&#34;&gt;reference link&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;h3 id=&#34;an-example-of-using-aspera-to-download-fastq-data&#34;&gt;An example of using aspera to download fastq data&lt;/h3&gt;&#xA;&lt;p&gt;When I studied the docker-based Hi-C pipeline &lt;a href=&#34;https://custardpy.readthedocs.io/en/latest/content/StepbyStep.html#optional-download-the-fastq-files&#34;&gt;CustardPy&lt;/a&gt;,&#xA;I needed to download a series of fastq data: SRR17870713, SRR17870718, SRR17870740.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

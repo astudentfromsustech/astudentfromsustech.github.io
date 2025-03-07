@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pipeline on Not a Peeker of Nature</title>
+    <link>http://localhost:1313/tags/pipeline/</link>
+    <description>Recent content in Pipeline on Not a Peeker of Nature</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pipeline/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Routine_analysis_in_bioinformatics</title>
+      <link>http://localhost:1313/posts/posts_7_routine_pipelines_in_bioinformatics/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/posts_7_routine_pipelines_in_bioinformatics/</guid>
+      <description>&lt;h4 id=&#34;why&#34;&gt;Why?&lt;/h4&gt;&#xA;&lt;p&gt;There are two main reasons why I want to record these routine pipelines: (1) save some time if&lt;/p&gt;&#xA;&lt;h4 id=&#34;routine-pipeline-1-rna-seq-ref-&#34;&gt;Routine pipeline 1: RNA-seq (ref: &lt;a href=&#34;https://rumball.readthedocs.io/en/latest/&#34;&gt;https://rumball.readthedocs.io/en/latest/&lt;/a&gt;)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;to-be-continued-&#34;&gt;To be continued &amp;hellip;&lt;/h4&gt;</description>
+    </item>
+  </channel>
+</rss>

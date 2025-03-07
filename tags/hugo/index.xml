@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HUGO on Not a Peeker of Nature</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in HUGO on Not a Peeker of Nature</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HUGO, follow-up</title>
+      <link>http://localhost:1313/posts/posts_1/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/posts_1/</guid>
+      <description>&lt;h3 id=&#34;hello-hugo&#34;&gt;Hello, HUGO!&lt;/h3&gt;&#xA;&lt;h4 id=&#34;why&#34;&gt;Why?&lt;/h4&gt;&#xA;&lt;p&gt;Inspired by the &lt;a href=&#34;https://notarocketscientist.xyz/&#34;&gt;website of Prof.XiChen&lt;/a&gt;, I also want to build my own website using HUGO with gokarna theme. I think it&amp;rsquo;s a good way to record my thoughts and progresses, as well as a method to present myself. Besides, it can also encourage me to write more, which I think, is quite important to reorganize various pieces of knowledge and assimilate them into my own understanding.&lt;/p&gt;&#xA;&lt;h4 id=&#34;how&#34;&gt;How?&lt;/h4&gt;&#xA;&lt;p&gt;First, install HUGO and download the theme called &lt;a href=&#34;https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/#installation&#34;&gt;gokarna&lt;/a&gt;. Then I learn the basic rules of building a website using HUGO(&lt;a href=&#34;https://www.bilibili.com/video/BV1x64y117PX/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=4c6075031c79687571bc15c031b6622e&#34;&gt;Referenc Video&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello, HUGO!</title>
+      <link>http://localhost:1313/posts/posts_0/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/posts_0/</guid>
+      <description>&lt;h3 id=&#34;hello-hugo&#34;&gt;Hello, HUGO!&lt;/h3&gt;&#xA;&lt;h4 id=&#34;why&#34;&gt;Why?&lt;/h4&gt;&#xA;&lt;p&gt;Inspired by the &lt;a href=&#34;https://notarocketscientist.xyz/&#34;&gt;website of Prof. Xi Chen&lt;/a&gt;, I also want to build my own website using HUGO with gokarna. I think it&amp;rsquo;s a good way to record my thoughts and progresses, as well as a method to present myself. Besides, it can also encourage me to write more, which I think, is quite important to reorganize various pieces of knowledge and assimilate them into my own understanding.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

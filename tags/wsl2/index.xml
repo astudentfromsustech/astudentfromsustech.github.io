@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wsl2 on Not a Peeker of Nature</title>
+    <link>http://localhost:1313/tags/wsl2/</link>
+    <description>Recent content in Wsl2 on Not a Peeker of Nature</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wsl2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quickstart of wsl2</title>
+      <link>http://localhost:1313/posts/posts_10_basis_for_wsl2/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/posts_10_basis_for_wsl2/</guid>
+      <description>&lt;h1 id=&#34;install-wsl2&#34;&gt;#Install wsl2&lt;/h1&gt;&#xA;&lt;p&gt;I usually use VPN, so not only will it require me to set the network (wifi/ethernet), but also&#xA;require me to set the DNS of the wsl2 as 8.8.8.8 and 8.8.4.4&#xA;&lt;img src=&#34;http://localhost:1313/images/Posts_10/img_1.png&#34; alt=&#34;img_1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;install-conda&#34;&gt;#Install conda&lt;/h1&gt;&#xA;&lt;h4 id=&#34;why&#34;&gt;Why?&lt;/h4&gt;&#xA;&lt;p&gt;Configuring environment is quite important, and sometimes annoying especially for a beginner. The issues can be various, so&#xA;I&amp;rsquo;d like to collect them in the post. There are two main benefits for me: one is to save time if I have the same issue next time, another is&#xA;to build a framework of virtual environment so that I can really understand how it works.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
