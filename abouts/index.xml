@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Not a Peeker of Nature</title>
+    <link>https://astudentfromsustech.github.io/abouts/</link>
+    <description>Recent content in Abouts on Not a Peeker of Nature</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://astudentfromsustech.github.io/abouts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me (all text)</title>
+      <link>https://astudentfromsustech.github.io/abouts/about_1/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/abouts/about_1/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;&#xA;&lt;p&gt;My name is Pengfei Yin (殷鹏飞). I completed my BSc at the Ocean University of China, where I was deeply&#xA;attracted to how mechanisms underlying molecular biology are discovered. Since then, I have been systematically enhancing my&#xA;ability to decipher biological mechanisms. In addition to experiments, numerous scientific studies demonstrate that Physics (&lt;a href=&#34;https://en.wikipedia.org/wiki/Francis_Crick&#34;&gt;Francis Crick&lt;/a&gt;)&#xA;and computational analysis can also help us understand the biological phenomena. Thus, I have developed a background in molecular biology,&#xA;complemented by training in mathematical modeling and core courses for Physics students (including the 3 volumes of &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Feynman_Lectures_on_Physics&#34;&gt;the Feynman Lectures on Physics&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>https://astudentfromsustech.github.io/abouts/about_2/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/abouts/about_2/</guid>
+      <description>&lt;p&gt;My name is Pengfei Yin (殷鹏飞). I completed my BSc at the Ocean University of China, where I was deeply&#xA;attracted to how mechanisms underlying molecular biology are discovered. Since then, I have been systematically enhancing my&#xA;ability to decipher biological mechanisms. In addition to experiments, numerous scientific studies demonstrate that Physics (&lt;a href=&#34;https://en.wikipedia.org/wiki/Francis_Crick&#34;&gt;Francis Crick&lt;/a&gt;)&#xA;and computational analysis can also help us understand the biological phenomena. Thus, I have developed a background in molecular biology,&#xA;complemented by training in mathematical modeling and core courses for Physics students (including the 3 volumes of &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Feynman_Lectures_on_Physics&#34;&gt;the Feynman Lectures on Physics&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About me (with figure)</title>
+      <link>https://astudentfromsustech.github.io/abouts/about_0/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/abouts/about_0/</guid>
+      <description>&lt;p&gt;The following pic displays my motivation, research interests, skills and goals&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://astudentfromsustech.github.io/images/about/about_me9.png&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://astudentfromsustech.github.io/images/about/about_me10.png&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://astudentfromsustech.github.io/images/about/about_me11.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
