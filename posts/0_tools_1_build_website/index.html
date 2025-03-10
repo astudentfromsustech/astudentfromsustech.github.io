@@ -226,6 +226,129 @@ git submodule add https://github.com/gokarna-theme/gokarna-hugo.git themes/gokar
 </code></pre>
 <h4 id="c-fill-in-configuaration-file">c. Fill in configuaration file</h4>
 <p><img src="/images/0_tools_summary/tools_1_a.png" alt="alt text"></p>
+<pre><code>&gt;&gt;cat hugo.toml 
+baseURL = &quot;https://astudentfromsustech.github.io/&quot;
+title = &quot;Not a Peeker of Nature&quot;
+theme = &quot;gokarna&quot;
+languageCode = &quot;en&quot;
+defaultContentLanguage = &quot;en&quot;
+enableEmoji = true
+enableRobotsTXT = true
+
+# Choose one of emacs, trac or perldoc
+pygmentsStyle = &quot;monokai&quot;
+
+[params]
+footer = &quot;Pengfei Yin&quot;
+description = &quot;Genomics | Computational Biology | Physics&quot;
+avatarURL = &quot;/images/avatar.jpg&quot;
+AvatarAltText = &quot;avatar&quot;
+avatarSize = &quot;size-l&quot;
+showPostsOnHomePage = &quot;recent&quot;
+ShowBackToTopButton = true # true or false for &quot;back to top&quot; button on posts
+customHeadHTML = &quot;&quot;&quot;
+    &lt;!-- KaTeX --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css&quot; integrity=&quot;sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC&quot; crossorigin=&quot;anonymous&quot;&gt;
+    &lt;script defer src=&quot;https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js&quot; integrity=&quot;sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script defer src=&quot;https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js&quot; integrity=&quot;sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script&gt;
+    document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+        renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+        ],
+        // • rendering keys, e.g.:
+        throwOnError : false
+        });
+    });
+    &lt;/script&gt;
+&quot;&quot;&quot;
+socialIcons = [
+    {name = &quot;github&quot;, url = &quot;https://github.com/astudentfromsustech&quot;},
+    {name = &quot;twitter&quot;, url = &quot;https://twitter.com/Pengfei_Yin_&quot;},
+    {name = &quot;email&quot;, url = &quot;12133074@mail.sustech.edu.cn&quot;}
+]
+metaKeywords = [&quot;blog&quot;, &quot;gokarna&quot;, &quot;hugo&quot;]
+
+[menu]
+[[menu.main]]
+    name = &quot;Home&quot;
+    pre = &quot;&lt;span data-feather='home'&gt;&lt;/span&gt;&quot;
+#   url = &quot;https://astudentfromsustech.github.io/&quot;
+    url = &quot;/&quot;
+    weight = 1
+
+[[menu.main]]
+    name = &quot;Posts&quot;
+    pre = &quot;&lt;span data-feather='book'&gt;&lt;/span&gt;&quot;
+#   url = &quot;https://astudentfromsustech.github.io/posts/&quot;
+    url = &quot;/posts/&quot;
+    weight = 3
+
+[[menu.main]]
+    name = &quot;Projects&quot;
+    pre = &quot;&lt;span data-feather='code'&gt;&lt;/span&gt;&quot;
+#   url = &quot;https://astudentfromsustech.github.io/projects/&quot;
+    url = &quot;/projects/&quot;
+    weight = 4
+
+[[menu.main]]
+    name = &quot;Tags&quot;
+    pre = &quot;&lt;span data-feather='tag'&gt;&lt;/span&gt;&quot;
+#   url = &quot;https://astudentfromsustech.github.io/tags/&quot;
+    url = &quot;/tags/&quot;
+    weight = 5
+
+[[menu.main]]
+    name = &quot;Abouts&quot;
+    pre = &quot;&lt;span data-feather='users'&gt;&lt;/span&gt;&quot;
+#   url = &quot;https://astudentfromsustech.github.io/about/&quot;
+    url = &quot;/abouts/&quot;
+    weight = 2
+
+[markup]
+[markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
+</code></pre>
+<h4 id="d-launching-the-website-locally">d. Launching the Website Locally</h4>
+<pre><code>hugo server
+</code></pre>
+<h3 id="2-host-the-public-diretory-on-github-using-a-seperate">2. Host the public diretory on github using a seperate</h3>
+<h4 id="a-generate-the-ssh-key">a. Generate the SSH Key</h4>
+<pre><code>ssh-keygen -t ed25519 -C &quot;your_email@example.com
+</code></pre>
+<h4 id="b-add-your-ssh-key-to-the-agent">b. Add your SSH key to the agent</h4>
+<pre><code># for Ed25519 key, if you’re using RSA, use the corresponding file (e.g., ~/.ssh/id_rsa). 
+ssh-add ~/.ssh/id_ed25519   
+</code></pre>
+<h4 id="c-add-your-public-key-to-github">c. Add your public key to GitHub</h4>
+<pre><code># copy the content of ~/.ssh/id_ed25519.pub or ~/.ssh/id_rsa.pub
+pbcopy &lt; ~/.ssh/id_ed25519.pub # or  pbcopy &lt; ~/.ssh/id_rsa.pub
+# paste the public key to the “Key” field (click the New SSH key in GitHub SSH Settings)
+</code></pre>
+<h4 id="d-keep-public-in-a-separate-branch-another-choice-is--">d. Keep public in a separate branch (Another choice is  )</h4>
+<pre><code># Remove the .git Folder in public
+cd /path/to/your/hugo/project/public
+rm -rf .git 
+
+# Clone Your GitHub Pages Repository Locally
+cd ~/repos
+git clone git@github.com:astudentfromsustech/astudentfromsustech.github.io.git  
+
+# Copy the generated public directory to the repository root
+cd astudentfromsustech.github.io
+cp -R /Users/fayevalentine/Desktop/tools/tools_2_hugo/hugo/ypf_website/public/* .  
+
+# Commit and Push the Files
+git add .
+git commit -m &quot;Publish Hugo site: update GitHub Pages site&quot;
+git push -u origin master
+</code></pre>
 
         
     </div>
