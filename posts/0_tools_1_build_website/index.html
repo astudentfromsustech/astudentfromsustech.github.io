@@ -318,7 +318,7 @@ metaKeywords = [&quot;blog&quot;, &quot;gokarna&quot;, &quot;hugo&quot;]
 <h4 id="d-launching-the-website-locally">d. Launching the Website Locally</h4>
 <pre><code>hugo server
 </code></pre>
-<h3 id="2-host-the-public-diretory-on-github-using-a-seperate">2. Host the public diretory on github using a seperate</h3>
+<h3 id="2-host-the-public-diretory-on-github-using-a-seperate-branch">2. Host the public diretory on github using a seperate branch</h3>
 <h4 id="a-generate-the-ssh-key">a. Generate the SSH Key</h4>
 <pre><code>ssh-keygen -t ed25519 -C &quot;your_email@example.com
 </code></pre>
@@ -331,9 +331,9 @@ ssh-add ~/.ssh/id_ed25519
 pbcopy &lt; ~/.ssh/id_ed25519.pub # or  pbcopy &lt; ~/.ssh/id_rsa.pub
 # paste the public key to the “Key” field (click the New SSH key in GitHub SSH Settings)
 </code></pre>
-<h4 id="d-keep-public-in-a-separate-branch-another-choice-is--">d. Keep public in a separate branch (Another choice is  )</h4>
+<h4 id="d-keep-public-in-a-separate-branch-another-choice-is-to-directly-push-the-public-directory">d. Keep public in a separate branch (Another choice is to directly push the public directory)</h4>
 <pre><code># Remove the .git Folder in public
-cd /path/to/your/hugo/project/public
+cd /Users/fayevalentine/Desktop/tools/tools_2_hugo/hugo/ypf_website/public
 rm -rf .git 
 
 # Clone Your GitHub Pages Repository Locally
