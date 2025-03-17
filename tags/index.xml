@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Not a Peeker of Nature</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://astudentfromsustech.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data</title>
+      <link>https://astudentfromsustech.github.io/tags/data/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/tags/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kingfisher</title>
+      <link>https://astudentfromsustech.github.io/tags/kingfisher/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/tags/kingfisher/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tool</title>
+      <link>https://astudentfromsustech.github.io/tags/tool/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/tags/tool/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Commands</title>
       <link>https://astudentfromsustech.github.io/tags/commands/</link>
@@ -34,20 +55,6 @@
       <link>https://astudentfromsustech.github.io/tags/pipeline/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/tags/pipeline/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Skill</title>
-      <link>https://astudentfromsustech.github.io/tags/skill/</link>
-      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/tags/skill/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tool</title>
-      <link>https://astudentfromsustech.github.io/tags/tool/</link>
-      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/tags/tool/</guid>
       <description></description>
     </item>
   </channel>

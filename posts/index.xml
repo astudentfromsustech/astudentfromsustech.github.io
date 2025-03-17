@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Not a Peeker of Nature</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://astudentfromsustech.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download the public sequencing data using kingfisher</title>
+      <link>https://astudentfromsustech.github.io/posts/0_tools_2_download_sequencing_data/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/posts/0_tools_2_download_sequencing_data/</guid>
+      <description>&lt;h3 id=&#34;kingfisher-is-quite-convinient-for-us-to-download-publica-sequencing-data&#34;&gt;&lt;a href=&#34;https://wwood.github.io/kingfisher-download/&#34;&gt;Kingfisher&lt;/a&gt; is quite convinient for us to download publica sequencing data&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1-install-kingfisher&#34;&gt;1. Install kingfisher&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;conda install -c conda-forge -c bioconda kingfisher # pay attention to the channel order&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h4 id=&#34;2-examples-of-downloading-date-using-kingfisher&#34;&gt;2. Examples of downloading date using kingfisher&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;kingfisher get -p PRJNA938179 -m aws-http prefetch aws-cp gcp-cp ena-ftp -f fastq --check-md5sums&#xA;kingfisher get -p PRJNA938179 -m aws-http prefetch aws-cp gcp-cp ena-ftp -t 16 -f fastq.gz --check-md5sums&#xA;kingfisher get -r SRR12044307 -m aws-http prefetch aws-cp gcp-cp ena-ftp -f fastq --check-md5sums&#xA;kingfisher get -r SRR12044307 -m aws-http prefetch aws-cp gcp-cp ena-ftp -t 16 -f fastq.gz --check-md5sums&#xA;&#xA;kingfisher get --run-identifiers-list srr_list.txt -m aws-http prefetch aws-cp gcp-cp ena-ftp -t 16 -f fastq.gz --check-md5sums&#xA;srr_list.txt &amp;lt;&#xA;SRR12044304&#xA;SRR12044305&#xA;SRR12044306&#xA;SRR12044307&#xA;SRR12044308&#xA;SRR12044309&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h4 id=&#34;appendix-1-aria2c&#34;&gt;Appendix 1: aria2c&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;aria2c -c https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/020/567/875/GCA_020567875.1_IOCAS_Cari/GCA_020567875.1_IOCAS_Cari_genomic.fna.gz&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
     <item>
       <title>Build personal website with Gokarna as the theme</title>
       <link>https://astudentfromsustech.github.io/posts/0_tools_1_build_website/</link>
@@ -35,13 +42,6 @@
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/0_tools_summary/</guid>
       <description>&lt;h2 id=&#34;1-build-personal-website-and-host-it-on-github&#34;&gt;#1 &lt;a href=&#34;https://astudentfromsustech.github.io/posts/0_tools_1_build_website/&#34;&gt;Build personal website and host it on github&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;2-download-public-sequencing-data&#34;&gt;#2 &lt;a href=&#34;https://astudentfromsustech.github.io/posts/0_tools_2_download_sequencing_data&#34;&gt;Download public sequencing data&lt;/a&gt;&lt;/h2&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://astudentfromsustech.github.io/posts/0_tools_2_download_sequencing_data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/posts/0_tools_2_download_sequencing_data/</guid>
-      <description>&lt;h2 id=&#34;draft-false&#34;&gt;title: &amp;ldquo;Download the public sequencing data using kingfisher&amp;rdquo;&#xA;date: 2025-03-17&#xA;type: &amp;ldquo;post&amp;rdquo;&#xA;tags: [&amp;rsquo;tool&amp;rsquo;,&amp;lsquo;kingfisher&amp;rsquo;,&amp;lsquo;data&amp;rsquo;]&#xA;draft: false&lt;/h2&gt;&#xA;&lt;h3 id=&#34;kingfisher-is-quite-convinient-for-us-to-download-publica-sequencing-data&#34;&gt;&lt;a href=&#34;https://wwood.github.io/kingfisher-download/&#34;&gt;Kingfisher&lt;/a&gt; is quite convinient for us to download publica sequencing data&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1-install-kingfisher&#34;&gt;1. Install kingfisher&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;conda install -c conda-forge -c bioconda kingfisher # pay attention to the channel order&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h4 id=&#34;2-examples-of-downloading-date-using-kingfisher&#34;&gt;2. Examples of downloading date using kingfisher&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;kingfisher get -p PRJNA938179 -m aws-http prefetch aws-cp gcp-cp ena-ftp -f fastq --check-md5sums&#xA;kingfisher get -p PRJNA938179 -m aws-http prefetch aws-cp gcp-cp ena-ftp -t 16 -f fastq.gz --check-md5sums&#xA;kingfisher get -r SRR12044307 -m aws-http prefetch aws-cp gcp-cp ena-ftp -f fastq --check-md5sums&#xA;kingfisher get -r SRR12044307 -m aws-http prefetch aws-cp gcp-cp ena-ftp -t 16 -f fastq.gz --check-md5sums&#xA;&#xA;kingfisher get --run-identifiers-list srr_list.txt -m aws-http prefetch aws-cp gcp-cp ena-ftp -t 16 -f fastq.gz --check-md5sums&#xA;srr_list.txt &amp;lt;&#xA;SRR12044304&#xA;SRR12044305&#xA;SRR12044306&#xA;SRR12044307&#xA;SRR12044308&#xA;SRR12044309&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h4 id=&#34;appendix-1-aria2c&#34;&gt;Appendix 1: aria2c&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;aria2c -c https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/020/567/875/GCA_020567875.1_IOCAS_Cari/GCA_020567875.1_IOCAS_Cari_genomic.fna.gz&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>
