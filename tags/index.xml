@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://astudentfromsustech.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Commands</title>
+      <link>https://astudentfromsustech.github.io/tags/commands/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://astudentfromsustech.github.io/tags/commands/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Gokarna</title>
       <link>https://astudentfromsustech.github.io/tags/gokarna/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
@@ -41,13 +48,6 @@
       <link>https://astudentfromsustech.github.io/tags/tool/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/tags/tool/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Commands</title>
-      <link>https://astudentfromsustech.github.io/tags/commands/</link>
-      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://astudentfromsustech.github.io/tags/commands/</guid>
       <description></description>
     </item>
   </channel>
