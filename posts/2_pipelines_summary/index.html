@@ -215,7 +215,11 @@
 2.ChIP-seq: <a href="https://churros.readthedocs.io/en/latest/">https://churros.readthedocs.io/en/latest/</a><br>
 3.Hi-C: <a href="https://custardpy.readthedocs.io/en/latest/">https://custardpy.readthedocs.io/en/latest/</a><br>
 4.Single-cell: <a href="https://github.com/rnakato/ShortCake">https://github.com/rnakato/ShortCake</a></p>
-<h2 id="single-cell-genomics-very-comprehensive">#Single-cell genomics (very comprehensive)</h2>
+<p>Tip 1: change the sif image into sandbox so that we can edit the sif image</p>
+<pre tabindex="0"><code>singularity build --sandbox /path/to/rumball_sandbox /path/to/rumball.0.7.4.sif
+singularity shell --writable /path/to/rumball_sandbox # now we enter the sif image and we can do some modifications as we need
+singularity exec /path/to/rumball_sandbox /opt/RumBall/rsem_merge_GeneOnly.sh &#34;$HaCaT_WT $HaCaT_C3KO&#34; Matrix_deseq2/HaCaT_WT_C3KO $Ddir # rsem_merge_GeneOnly.sh is the modified script inside the sif image
+</code></pre><h2 id="single-cell-genomics-very-comprehensive">#Single-cell genomics (very comprehensive)</h2>
 <p><a href="https://www.sc-best-practices.org/preamble.html">https://www.sc-best-practices.org/preamble.html</a></p>
 <h2 id="3d-genomics">#3D genomics</h2>
 <p>1.microC: <a href="https://github.com/dovetail-genomics/Micro-C">https://github.com/dovetail-genomics/Micro-C</a></p>
