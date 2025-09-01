@@ -269,6 +269,83 @@ for bg in &#34;$src_dir&#34;/*.bedgraph; do
 
   igvtools toTDF ${bg} ${tdf} ${genome}
 done
+</code></pre><h3 id="2-draw-plot-using-python">2. draw plot using Python</h3>
+<pre tabindex="0"><code>import cooler
+import pathlib as p
+import numpy as np
+import pandas as pd
+
+import matplotlib
+# matplotlib.use(&#39;Qt5Agg&#39;)
+# matplotlib.rcParams[&#39;font.family&#39;] = &#39;Arial&#39;
+import matplotlib.pyplot as plt
+plt.style.use(&#39;ggplot&#39;)
+
+from scipy.stats import pearsonr, spearmanr, gaussian_kde
+
+pd.set_option(&#39;display.max_columns&#39;, None)
+pd.set_option(&#39;display.max_rows&#39;, None)
+pd.set_option(&#39;display.width&#39;, 500)
+
+if __name__ == &#39;__main__&#39;:
+    root = p.Path(__file__).absolute().parent
+
+    resolution = 10000
+    src_dir = root.parent / f&#39;data_2_cool_{resolution}_targetChroms_normalizeSmallest&#39;
+    # dest_dir = root.parent / &#39;data&#39; / &#39;result_0_scatterPlot_of_twoReplicates_allChroms_noLabels_chr2L&#39;
+    dest_dir = root.parent / &#39;result_scatterPlot_of_twoReplicates_allChroms_noLabels_withColorCode&#39;
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    # print(src_dir)
+
+    # groups = [[&#39;ctrl1&#39;, &#39;ctrl2&#39;, &#39;ctrl&#39;, &#39;#4D7731&#39;], [&#39;tcdd1&#39;, &#39;tcdd2&#39;, &#39;tcdd&#39;, &#39;#98A246&#39;]]
+    groups = [[&#39;ctrl1&#39;, &#39;ctrl2&#39;, &#39;ctrl&#39;, &#39;#4D7731&#39;]]
+
+    for group in groups:
+        rep1 = group[0]
+        rep2 = group[1]
+        group_name = group[2]
+        color_code = group[3]
+        print(group_name)
+        print(rep1)
+        print(rep2)
+        c1 = cooler.Cooler(str(src_dir / f&#39;{rep1}_{resolution}_targetChroms_normalizeSmallest.cool&#39;))
+        c2 = cooler.Cooler(str(src_dir / f&#39;{rep2}_{resolution}_targetChroms_normalizeSmallest.cool&#39;))
+
+        matrix1_flat_raw = c1.matrix(balance=False)[:].flatten()
+        matrix2_flat_raw = c2.matrix(balance=False)[:].flatten()
+        # print(matrix1_flat_raw.shape)
+        # print(matrix2_flat_raw.shape)
+        #
+        #
+        matrix1_flat, matrix2_flat = filter_zero_indices(matrix1_flat_raw, matrix2_flat_raw)
+        # print(len(matrix1_flat))
+        # print(len(matrix2_flat))
+        corr_pearson, p_pearson = pearsonr(matrix1_flat, matrix2_flat)
+        # corr_spearman, p_spearman = spearmanr(matrix1_flat, matrix2_flat)
+
+        fig, ax = plt.subplots(figsize=(5, 5), dpi=300)
+        ax.set_facecolor(&#39;white&#39;)
+        for spine in ax.spines.values():
+            spine.set_color(&#39;black&#39;)
+            spine.set_linewidth(1)
+
+        plt.scatter(np.log10(matrix1_flat), np.log10(matrix2_flat), alpha=0.3, s=1.5, c=color_code)
+        # plt.scatter(np.log2(matrix1_flat), np.log2(matrix2_flat), alpha=0.3, s=1.5, c=&#39;black&#39;)
+        # sc = ax.scatter(x, y, c=z, s=1.5, alpha=0.3, cmap=&#39;inferno&#39;)
+
+        ax.set_xticks([1, 2, 3])
+        ax.set_xticklabels([10, 100, 1000])
+        ax.set_yticks([1, 2, 3])
+        ax.set_yticklabels([10, 100, 1000])
+
+        # ax.set_xlabel(f&#34;{group_name}_rep1&#34;, fontsize=10)
+        # ax.set_ylabel(f&#34;{group_name}_rep2&#34;, fontsize=10)
+        ax.set_xlabel(f&#34;&#34;)
+        ax.set_ylabel(f&#34;&#34;)
+
+        ax.set_title(f&#34;&#34;)
+
+        plt.savefig(dest_dir/f&#39;{group_name}_resolution{resolution}_correlation_twoReps_allChroms_pearsonCorr{corr_pearson:.2f}_noLabels_withColorCode.png&#39;, dpi=300)
 </code></pre>
         
     </div>
