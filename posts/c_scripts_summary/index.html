@@ -270,8 +270,7 @@ for bg in &#34;$src_dir&#34;/*.bedgraph; do
   igvtools toTDF ${bg} ${tdf} ${genome}
 done
 </code></pre><h3 id="2-draw-plot-using-python">2. draw plot using Python</h3>
-<pre tabindex="0"><code>import cooler
-import pathlib as p
+<pre tabindex="0"><code>import pathlib as p
 import numpy as np
 import pandas as pd
 
@@ -292,12 +291,9 @@ if __name__ == &#39;__main__&#39;:
 
     resolution = 10000
     src_dir = root.parent / f&#39;data_2_cool_{resolution}_targetChroms_normalizeSmallest&#39;
-    # dest_dir = root.parent / &#39;data&#39; / &#39;result_0_scatterPlot_of_twoReplicates_allChroms_noLabels_chr2L&#39;
     dest_dir = root.parent / &#39;result_scatterPlot_of_twoReplicates_allChroms_noLabels_withColorCode&#39;
     dest_dir.mkdir(parents=True, exist_ok=True)
-    # print(src_dir)
 
-    # groups = [[&#39;ctrl1&#39;, &#39;ctrl2&#39;, &#39;ctrl&#39;, &#39;#4D7731&#39;], [&#39;tcdd1&#39;, &#39;tcdd2&#39;, &#39;tcdd&#39;, &#39;#98A246&#39;]]
     groups = [[&#39;ctrl1&#39;, &#39;ctrl2&#39;, &#39;ctrl&#39;, &#39;#4D7731&#39;]]
 
     for group in groups:
@@ -313,15 +309,10 @@ if __name__ == &#39;__main__&#39;:
 
         matrix1_flat_raw = c1.matrix(balance=False)[:].flatten()
         matrix2_flat_raw = c2.matrix(balance=False)[:].flatten()
-        # print(matrix1_flat_raw.shape)
-        # print(matrix2_flat_raw.shape)
-        #
-        #
+
         matrix1_flat, matrix2_flat = filter_zero_indices(matrix1_flat_raw, matrix2_flat_raw)
-        # print(len(matrix1_flat))
-        # print(len(matrix2_flat))
+
         corr_pearson, p_pearson = pearsonr(matrix1_flat, matrix2_flat)
-        # corr_spearman, p_spearman = spearmanr(matrix1_flat, matrix2_flat)
 
         fig, ax = plt.subplots(figsize=(5, 5), dpi=300)
         ax.set_facecolor(&#39;white&#39;)
