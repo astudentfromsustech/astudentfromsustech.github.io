@@ -20,21 +20,21 @@
     
     <title>Commands summary</title>
     <meta name="description" content="#commonly used juR96QR6
-#Linux truncate -s 0 file # empty a file with file name kept to save disk memory ">
+#Linux truncate -s 0 file # empty a file with file name kept to save disk memory #HPC-SCC sbatch submit.sbatch # submit a sbatch job …">
     <meta name="keywords" content='blog, gokarna, hugo, commands'>
 
     <meta property="og:url" content="https://astudentfromsustech.github.io/posts/3_commands_summary/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Commands summary">
     <meta property="og:description" content="#commonly used juR96QR6
-#Linux truncate -s 0 file # empty a file with file name kept to save disk memory ">
+#Linux truncate -s 0 file # empty a file with file name kept to save disk memory #HPC-SCC sbatch submit.sbatch # submit a sbatch job …">
     <meta property="og:image" content="https://astudentfromsustech.github.io/images/avatar.jpg">
     <meta property="og:image:secure_url" content="https://astudentfromsustech.github.io/images/avatar.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Commands summary">
     <meta name="twitter:description" content="#commonly used juR96QR6
-#Linux truncate -s 0 file # empty a file with file name kept to save disk memory ">
+#Linux truncate -s 0 file # empty a file with file name kept to save disk memory #HPC-SCC sbatch submit.sbatch # submit a sbatch job …">
     <meta property="twitter:domain" content="https://astudentfromsustech.github.io/posts/3_commands_summary/">
     <meta property="twitter:url" content="https://astudentfromsustech.github.io/posts/3_commands_summary/">
     <meta name="twitter:image" content="https://astudentfromsustech.github.io/images/avatar.jpg">
@@ -216,7 +216,13 @@
 <ol>
 <li>truncate -s 0 file # empty a file with file name kept to save disk memory</li>
 </ol>
-
+<h2 id="hpc-scc">#<a href="https://docs.hpc.gwdg.de/">HPC-SCC</a></h2>
+<pre tabindex="0"><code>sbatch submit.sbatch # submit a sbatch job
+squeue -u $USER # check the submitted jobs 
+scancel &lt;JOBID&gt; #  kill a job
+ps -u $USER # show your processes
+pkill -u $USER # kill all your processes on this node (be careful!)
+</code></pre>
         
     </div>
 

@@ -13,7 +13,7 @@
       <link>https://astudentfromsustech.github.io/posts/3_commands_summary/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://astudentfromsustech.github.io/posts/3_commands_summary/</guid>
-      <description>&lt;h2 id=&#34;commonly-used&#34;&gt;#commonly used&lt;/h2&gt;&#xA;&lt;p&gt;juR96QR6&lt;/p&gt;&#xA;&lt;h2 id=&#34;linux&#34;&gt;#Linux&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;truncate -s 0 file # empty a file with file name kept to save disk memory&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>&lt;h2 id=&#34;commonly-used&#34;&gt;#commonly used&lt;/h2&gt;&#xA;&lt;p&gt;juR96QR6&lt;/p&gt;&#xA;&lt;h2 id=&#34;linux&#34;&gt;#Linux&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;truncate -s 0 file # empty a file with file name kept to save disk memory&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;hpc-scc&#34;&gt;#&lt;a href=&#34;https://docs.hpc.gwdg.de/&#34;&gt;HPC-SCC&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sbatch submit.sbatch # submit a sbatch job&#xA;squeue -u $USER # check the submitted jobs &#xA;scancel &amp;lt;JOBID&amp;gt; #  kill a job&#xA;ps -u $USER # show your processes&#xA;pkill -u $USER # kill all your processes on this node (be careful!)&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>
