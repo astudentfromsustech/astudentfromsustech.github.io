@@ -20,21 +20,21 @@
     
     <title>Commands summary</title>
     <meta name="description" content="#commonly used juR96QR6
-#Linux truncate -s 0 file # empty a file with file name kept to save disk memory #HPC-SCC sbatch submit.sbatch # submit a sbatch job …">
+#Linux truncate -s 0 file # empty a file with file name kept to save disk memory #HPC-SCC frequently used commands sbatch submit.sbatch …">
     <meta name="keywords" content='blog, gokarna, hugo, commands'>
 
     <meta property="og:url" content="https://astudentfromsustech.github.io/posts/3_commands_summary/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Commands summary">
     <meta property="og:description" content="#commonly used juR96QR6
-#Linux truncate -s 0 file # empty a file with file name kept to save disk memory #HPC-SCC sbatch submit.sbatch # submit a sbatch job …">
+#Linux truncate -s 0 file # empty a file with file name kept to save disk memory #HPC-SCC frequently used commands sbatch submit.sbatch …">
     <meta property="og:image" content="https://astudentfromsustech.github.io/images/avatar.jpg">
     <meta property="og:image:secure_url" content="https://astudentfromsustech.github.io/images/avatar.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Commands summary">
     <meta name="twitter:description" content="#commonly used juR96QR6
-#Linux truncate -s 0 file # empty a file with file name kept to save disk memory #HPC-SCC sbatch submit.sbatch # submit a sbatch job …">
+#Linux truncate -s 0 file # empty a file with file name kept to save disk memory #HPC-SCC frequently used commands sbatch submit.sbatch …">
     <meta property="twitter:domain" content="https://astudentfromsustech.github.io/posts/3_commands_summary/">
     <meta property="twitter:url" content="https://astudentfromsustech.github.io/posts/3_commands_summary/">
     <meta name="twitter:image" content="https://astudentfromsustech.github.io/images/avatar.jpg">
@@ -217,11 +217,63 @@
 <li>truncate -s 0 file # empty a file with file name kept to save disk memory</li>
 </ol>
 <h2 id="hpc-scc">#<a href="https://docs.hpc.gwdg.de/">HPC-SCC</a></h2>
+<ol>
+<li>frequently used commands</li>
+</ol>
 <pre tabindex="0"><code>sbatch submit.sbatch # submit a sbatch job
 squeue -u $USER # check the submitted jobs 
 scancel &lt;JOBID&gt; #  kill a job
 ps -u $USER # show your processes
 pkill -u $USER # kill all your processes on this node (be careful!)
+</code></pre><ol start="2">
+<li>download data
+0_get_data.sh</li>
+</ol>
+<pre tabindex="0"><code>kingfisher get --run-identifiers-list srr_list.txt -m aws-http prefetch aws-cp gcp-cp ena-ftp -t 16 -f fastq.gz --check-md5sums
+</code></pre><p>srr_list</p>
+<pre tabindex="0"><code>SRR8259677
+SRR8259678
+SRR31052172
+SRR31690640
+</code></pre><pre tabindex="0"><code>sbatch 0_submit.sbatch
+</code></pre><p>0_submit.sbatch</p>
+<pre tabindex="0"><code>#!/bin/bash
+#SBATCH --job-name=fetch_data
+#SBATCH --partition=medium
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=32G
+#SBATCH --time=48:00:00
+#SBATCH --chdir=./
+#SBATCH --output=%x-%j.out            
+#SBATCH --error=%x-%j.err             
+
+set -euo pipefail
+
+# --- load conda &amp; env ---
+set +u                                  
+source ~/.bashrc
+conda activate tools_kingfisher
+set -u                                  
+
+# --- log / runtime setup ---
+echo &#34;JobID=$SLURM_JOB_ID Node(s)=$SLURM_JOB_NODELIST&#34;
+echo &#34;Partition=$SLURM_JOB_PARTITION  CPUs/Task=${SLURM_CPUS_PER_TASK:-NA}  Mem=${SLURM_MEM_PER_NODE:-NA}&#34;
+echo &#34;NTASKS=${SLURM_NTASKS:-1}  THREADS(from cpus-per-task)=${SLURM_CPUS_PER_TASK:-?}&#34;   
+date
+
+# match threads to allocation (exported for your scripts to pick up)
+export THREADS=&#34;${SLURM_CPUS_PER_TASK:-8}&#34;
+export PYTHONUNBUFFERED=1
+export OMP_NUM_THREADS=&#34;$THREADS&#34;
+export OPENBLAS_NUM_THREADS=&#34;$THREADS&#34;
+export MKL_NUM_THREADS=&#34;$THREADS&#34;
+export NUMEXPR_NUM_THREADS=&#34;$THREADS&#34;
+
+# --- run your pipeline ---
+bash 0_get_data.sh
+
+echo &#34;Done.&#34;
+date
 </code></pre>
         
     </div>
