@@ -226,9 +226,9 @@ scancel &lt;JOBID&gt; #  kill a job
 ps -u $USER # show your processes
 pkill -u $USER # kill all your processes on this node (be careful!)
 </code></pre><ol start="2">
-<li>download data
-0_get_data.sh</li>
+<li>download data</li>
 </ol>
+<p>0_get_data.sh</p>
 <pre tabindex="0"><code>kingfisher get --run-identifiers-list srr_list.txt -m aws-http prefetch aws-cp gcp-cp ena-ftp -t 16 -f fastq.gz --check-md5sums
 </code></pre><p>srr_list</p>
 <pre tabindex="0"><code>SRR8259677
